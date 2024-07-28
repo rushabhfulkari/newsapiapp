@@ -1,0 +1,53 @@
+name: newsapiapp
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  cloud_firestore:
+  cupertino_icons:
+  dartz:
+  firebase_auth:
+  firebase_core:
+  flutter:
+    sdk: flutter
+  flutter_svg:
+  get_it:
+  jiffy:
+  provider:
+  dio:
+  firebase_analytics:
+  firebase_remote_config:
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons:
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: "app_logo"
+  image_path: "assets/images/logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/vectors/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 900
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
